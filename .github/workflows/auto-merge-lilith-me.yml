@@ -1,0 +1,122 @@
+name: Auto squash-merge PRs by Lilith-Me
+
+on:
+  pull_request:
+    types: [opened]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "PR number to merge (optional). If not provided, the workflow will look for the most recent open PR by Lilith-Me."
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine PR to merge
+        id: find_pr
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const actor = 'Lilith-Me';
+            const eventName = context.eventName;
+            let prNumber = '';
+
+            if (eventName === 'pull_request') {
+              const pr = context.payload.pull_request;
+              if (!pr) {
+                core.info('No pull_request in payload — nothing to do.');
+              } else if (pr.user && pr.user.login !== actor) {
+                core.info(`PR author is ${pr.user.login}, not ${actor}. Skipping.`);
+              } else {
+                prNumber = pr.number.toString();
+                core.info(`Found PR #${prNumber} opened by ${actor}.`);
+              }
+            } else if (eventName === 'workflow_dispatch') {
+              const inputs = context.payload.inputs || {};
+              if (inputs.pr_number) {
+                prNumber = inputs.pr_number.toString();
+                core.info(`Manual run: using provided PR number ${prNumber}`);
+              } else {
+                core.info('Manual run: looking up latest open PR by ' + actor);
+                const { data: prs } = await github.rest.pulls.list({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  state: 'open',
+                  per_page: 20
+                });
+                const found = prs.find(p => p.user && p.user.login === actor);
+                if (found) {
+                  prNumber = found.number.toString();
+                  core.info(`Found open PR #${prNumber} by ${actor}.`);
+                } else {
+                  core.info(`No open PR by ${actor} found.`);
+                }
+              }
+            } else {
+              core.info('Event is not pull_request or workflow_dispatch, skipping.');
+            }
+
+            core.setOutput('pr_number', prNumber);
+
+      - name: Squash-merge PR and delete branch
+        if: steps.find_pr.outputs.pr_number != ''
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const prNumber = parseInt(process.env.PR_NUMBER || context.payload.inputs && context.payload.inputs.pr_number || steps.find_pr.outputs.pr_number);
+            if (!prNumber) throw new Error('PR number not provided');
+
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            core.info(`Merging PR #${prNumber} in ${owner}/${repo} (method: squash)`);
+
+            // Get fresh PR data
+            const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number: prNumber });
+
+            if (pr.merged) {
+              core.info(`PR #${prNumber} is already merged.`);
+            } else {
+              try {
+                const mergeRes = await github.rest.pulls.merge({
+                  owner,
+                  repo,
+                  pull_number: prNumber,
+                  merge_method: 'squash'
+                });
+
+                if (mergeRes.data.merged) {
+                  core.info(`PR #${prNumber} merged successfully (sha: ${mergeRes.data.sha}).`);
+                } else {
+                  throw new Error(`Merge API returned merged=false: ${JSON.stringify(mergeRes.data)}`);
+                }
+              } catch (err) {
+                throw new Error(`Failed to merge PR #${prNumber}: ${err.message}`);
+              }
+            }
+
+            // Attempt to delete source branch if it exists in same repo
+            try {
+              // re-fetch PR to get up-to-date head info
+              const { data: fresh } = await github.rest.pulls.get({ owner, repo, pull_number: prNumber });
+              const headRepo = fresh.head && fresh.head.repo;
+              const headRef = fresh.head && fresh.head.ref;
+
+              if (headRepo && headRepo.full_name === `${owner}/${repo}` && headRef) {
+                const ref = `heads/${headRef}`;
+                core.info(`Deleting branch ${ref} in ${owner}/${repo}`);
+                await github.rest.git.deleteRef({ owner, repo, ref });
+                core.info(`Deleted branch ${headRef}.`);
+              } else {
+                core.info('Source branch is in a fork or missing; skipping branch deletion.');
+              }
+            } catch (err) {
+              core.info(`Branch deletion skipped or failed: ${err.message}`);
+            }
+        env:
+          PR_NUMBER: ${{ steps.find_pr.outputs.pr_number }}
