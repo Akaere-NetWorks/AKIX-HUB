@@ -1,0 +1,57 @@
+{
+  "block_id": "block_2",
+  "height": 2,
+  "previous_hash": "d9f57495b63d70fdcc2f921540d04aecd86e683ec5990eba7a8553d63b7786d6",
+  "timestamp": "2025-12-12T10:26:44.963509Z",
+  "creator": {
+    "user_id": 6207564254,
+    "username": "Pysio07",
+    "full_name": "Pysio"
+  },
+  "description": "Signed 3 messages",
+  "messages": [
+    {
+      "telegram_id": 504833,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2025-12-12T18:25:25Z",
+      "sender": {
+        "id": 1780794882,
+        "username": "gugumnt",
+        "full_name": "\u9d3f"
+      }
+    },
+    {
+      "telegram_id": 504834,
+      "signature_file": "message_2.sig",
+      "content_file": "message_2.json",
+      "timestamp": "2025-12-12T18:25:30Z",
+      "sender": {
+        "id": 8461935548,
+        "username": "RuiFeng_12",
+        "full_name": "Rui Feng"
+      }
+    },
+    {
+      "telegram_id": 504835,
+      "signature_file": "message_3.sig",
+      "content_file": "message_3.json",
+      "timestamp": "2025-12-12T18:25:32Z",
+      "sender": {
+        "id": 8461935548,
+        "username": "RuiFeng_12",
+        "full_name": "Rui Feng"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_2/message_1.json",
+    "sign/block_2/message_1.sig",
+    "sign/block_2/message_2.json",
+    "sign/block_2/message_2.sig",
+    "sign/block_2/message_3.json",
+    "sign/block_2/message_3.sig"
+  ],
+  "block_hash": "fdd4ea6e6378cb9fa0ed2e92fc90aaec7379a6201213c36e678887931ca2ec14"
+}
