@@ -1,0 +1,59 @@
+{
+  "telegram_api_data": {
+    "chat": {
+      "id": -1002645770363,
+      "type": "supergroup",
+      "title": "Akaere Internet Exchange Point | offtopic"
+    },
+    "date": 1765551934,
+    "from": {
+      "id": 1131599936,
+      "is_bot": false,
+      "username": "as216299",
+      "last_name": "Liu",
+      "first_name": "Chang",
+      "is_premium": true
+    },
+    "sticker": {
+      "type": "regular",
+      "emoji": "\u270d\ufe0f",
+      "thumb": {
+        "width": 320,
+        "height": 273,
+        "file_id": "AAMCBQADIQUABJ2zQHsAAQeUd2k3iAgkYfAFkHSs7OmS93H6jmuJAAIaEQACXbvxVn_Yd6mm_ToKAQAHbQADNgQ",
+        "file_size": 11050,
+        "file_unique_id": "AQADGhEAAl278VZy"
+      },
+      "width": 512,
+      "height": 437,
+      "file_id": "CAACAgUAAyEFAASds0B7AAEHlHdpN4gIJGHwBZB0rOzpkvdx-o5riQACGhEAAl278VZ_2Heppv06CjYE",
+      "is_video": true,
+      "set_name": "YetAnotherVideoSet",
+      "file_size": 23497,
+      "thumbnail": {
+        "width": 320,
+        "height": 273,
+        "file_id": "AAMCBQADIQUABJ2zQHsAAQeUd2k3iAgkYfAFkHSs7OmS93H6jmuJAAIaEQACXbvxVn_Yd6mm_ToKAQAHbQADNgQ",
+        "file_size": 11050,
+        "file_unique_id": "AQADGhEAAl278VZy"
+      },
+      "is_animated": false,
+      "file_unique_id": "AgADGhEAAl278VY"
+    },
+    "message_id": 506223,
+    "sender_boost_count": 1,
+    "_db_info": {
+      "id": 9411,
+      "created_at": "2025-12-12T23:05:35.086149",
+      "message_type": "sticker",
+      "media_sha1s": [
+        "70bedad19188e88aa025a6a2182a54710afd1925"
+      ]
+    }
+  },
+  "extraction_metadata": {
+    "extracted_at": "2025-12-12T15:06:29.011930Z",
+    "extracted_by": "sign_command",
+    "original_format": "telegram_api_v6.4"
+  }
+}
