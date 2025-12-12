@@ -1,0 +1,31 @@
+{
+  "block_id": "block_6",
+  "height": 6,
+  "previous_hash": "4521706adc323da6fe1f404c08ba460d9fc3c8885eaaec4a901b88b0840e85d7",
+  "timestamp": "2025-12-12T10:33:09.726965Z",
+  "creator": {
+    "user_id": 8461935548,
+    "username": "RuiFeng_12",
+    "full_name": "Rui Feng"
+  },
+  "description": "Signed 1 messages",
+  "messages": [
+    {
+      "telegram_id": 504954,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2025-12-12T18:33:01Z",
+      "sender": {
+        "id": 6929501509,
+        "username": null,
+        "full_name": "Seven"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_6/message_1.json",
+    "sign/block_6/message_1.sig"
+  ],
+  "block_hash": "aa8e5df9f6889c15cfe222a8b443a4248b186f970d0d44b65adc04883d581a6f"
+}
