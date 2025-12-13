@@ -1,0 +1,31 @@
+{
+  "block_id": "block_13",
+  "height": 13,
+  "previous_hash": "48f9995796097b869d2f5956980ab876dcbf903e8c737b4790863b58733e2960",
+  "timestamp": "2025-12-13T09:57:32.138414Z",
+  "creator": {
+    "user_id": 1857614828,
+    "username": "jackzeng6666",
+    "full_name": "\u542f\u52a8\u53f0"
+  },
+  "description": "Signed 1 messages",
+  "messages": [
+    {
+      "telegram_id": 508377,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2025-12-13T17:56:05Z",
+      "sender": {
+        "id": 1558159309,
+        "username": "XieXiLin",
+        "full_name": "XieXiLin"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_13/message_1.json",
+    "sign/block_13/message_1.sig"
+  ],
+  "block_hash": "238c306466774a906a23eb8c93fcb2d9bc28032e1b72b5e3bc6dd88b56f4e0c6"
+}
