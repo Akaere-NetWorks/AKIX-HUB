@@ -1,0 +1,31 @@
+{
+  "block_id": "block_22",
+  "height": 22,
+  "previous_hash": "cb8fadb4a3f6b24f376ab7de158a7a9045b79cc27aa0df4361cd53ccd7075ce7",
+  "timestamp": "2025-12-14T07:26:01.166015Z",
+  "creator": {
+    "user_id": 6157168358,
+    "username": "charliemoomoo",
+    "full_name": "Charlie"
+  },
+  "description": "Signed 1 messages",
+  "messages": [
+    {
+      "telegram_id": 513111,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2025-12-14T15:25:48Z",
+      "sender": {
+        "id": 1124756536,
+        "username": "qingfong",
+        "full_name": "qf"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_22/message_1.json",
+    "sign/block_22/message_1.sig"
+  ],
+  "block_hash": "c85deba8c3dd1d5d4b79ae9c438c00727a20759bbdf066c2375b59f3fb133a80"
+}
