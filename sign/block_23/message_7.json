@@ -1,0 +1,59 @@
+{
+  "telegram_api_data": {
+    "chat": {
+      "id": -1002645770363,
+      "type": "supergroup",
+      "title": "Akaere Internet Exchange Point | offtopic"
+    },
+    "date": 1765795992,
+    "from": {
+      "id": 7055663231,
+      "is_bot": false,
+      "username": "ainghasa88",
+      "last_name": "Clark",
+      "first_name": "Kevin",
+      "is_premium": true
+    },
+    "sticker": {
+      "type": "regular",
+      "emoji": "\ud83d\ude42",
+      "thumb": {
+        "width": 320,
+        "height": 320,
+        "file_id": "AAMCBQADIQUABJ2zQHsAAQfj_Wk_6Jg3n70smt-oxhfiLChVlYubAALrBgACbfBIVJpK7rJJQYpTAQAHbQADNgQ",
+        "file_size": 23968,
+        "file_unique_id": "AQAD6wYAAm3wSFRy"
+      },
+      "width": 512,
+      "height": 512,
+      "file_id": "CAACAgUAAyEFAASds0B7AAEH4_1pP-iYN5-9LJrfqMYX4iwoVZWLmwAC6wYAAm3wSFSaSu6ySUGKUzYE",
+      "is_video": false,
+      "set_name": "chaotianjiang",
+      "file_size": 26416,
+      "thumbnail": {
+        "width": 320,
+        "height": 320,
+        "file_id": "AAMCBQADIQUABJ2zQHsAAQfj_Wk_6Jg3n70smt-oxhfiLChVlYubAALrBgACbfBIVJpK7rJJQYpTAQAHbQADNgQ",
+        "file_size": 23968,
+        "file_unique_id": "AQAD6wYAAm3wSFRy"
+      },
+      "is_animated": false,
+      "file_unique_id": "AgAD6wYAAm3wSFQ"
+    },
+    "message_id": 517117,
+    "sender_boost_count": 1,
+    "_db_info": {
+      "id": 20247,
+      "created_at": "2025-12-15T18:53:13.256891",
+      "message_type": "sticker",
+      "media_sha1s": [
+        "b72ece6d349ad092254d462fe6dea6df411c298b"
+      ]
+    }
+  },
+  "extraction_metadata": {
+    "extracted_at": "2025-12-15T10:53:40.607256Z",
+    "extracted_by": "sign_command",
+    "original_format": "telegram_api_v6.4"
+  }
+}
