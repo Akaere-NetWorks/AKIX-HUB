@@ -1,0 +1,31 @@
+{
+  "block_id": "block_36",
+  "height": 36,
+  "previous_hash": "bea368d274a197c22bb3b5f3e3132850d74cc1233aa38b1e201f06ed6160d17a",
+  "timestamp": "2025-12-26T14:11:36.565118Z",
+  "creator": {
+    "user_id": 6060465146,
+    "username": "HSBCCNSH",
+    "full_name": "bulu"
+  },
+  "description": "Signed 1 messages",
+  "messages": [
+    {
+      "telegram_id": 552026,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2025-12-26T22:11:22Z",
+      "sender": {
+        "id": 8461935548,
+        "username": "RuiFeng_12",
+        "full_name": "Rui Feng"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_36/message_1.json",
+    "sign/block_36/message_1.sig"
+  ],
+  "block_hash": "3fe4edd815eead8aa621838636e0d381a9d71f9d96bf3e9b57a884b04cbbdb62"
+}
