@@ -1,0 +1,31 @@
+{
+  "block_id": "block_33",
+  "height": 33,
+  "previous_hash": "52e26bda02fc8b4cc59b34a501a6c57804bc8922be9549729853fc023a5a98f4",
+  "timestamp": "2025-12-26T13:56:40.659547Z",
+  "creator": {
+    "user_id": 5560199110,
+    "username": "bakabing",
+    "full_name": "Bingxin Baka"
+  },
+  "description": "Signed 1 messages",
+  "messages": [
+    {
+      "telegram_id": 551810,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2025-12-26T21:56:17Z",
+      "sender": {
+        "id": 7055663231,
+        "username": "ainghasa88",
+        "full_name": "Kevin Clark"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_33/message_1.json",
+    "sign/block_33/message_1.sig"
+  ],
+  "block_hash": "f5e4f83d17f7f8a1474f2ca5069cdaeeb5f1c52542badab36ac9aae7b321e601"
+}
