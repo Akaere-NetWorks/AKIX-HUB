@@ -1,0 +1,31 @@
+{
+  "block_id": "block_35",
+  "height": 35,
+  "previous_hash": "369239c9ae54825fb4655999518a7e30fd7026ac4e64935f5e3aa7977bca17f0",
+  "timestamp": "2025-12-26T14:00:11.332470Z",
+  "creator": {
+    "user_id": 7055663231,
+    "username": "ainghasa88",
+    "full_name": "Kevin Clark"
+  },
+  "description": "Signed 1 messages",
+  "messages": [
+    {
+      "telegram_id": 551894,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2025-12-26T21:59:35Z",
+      "sender": {
+        "id": 8461935548,
+        "username": "RuiFeng_12",
+        "full_name": "Rui Feng"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_35/message_1.json",
+    "sign/block_35/message_1.sig"
+  ],
+  "block_hash": "bea368d274a197c22bb3b5f3e3132850d74cc1233aa38b1e201f06ed6160d17a"
+}

@@ -1,0 +1,60 @@
+{
+  "telegram_api_data": {
+    "chat": {
+      "id": -1002645770363,
+      "type": "supergroup",
+      "title": "Akaere Internet Exchange Point | offtopic"
+    },
+    "date": 1766757575,
+    "from": {
+      "id": 8461935548,
+      "is_bot": false,
+      "username": "RuiFeng_12",
+      "last_name": "Feng",
+      "first_name": "Rui",
+      "is_premium": true
+    },
+    "text": "\u00b7\u7b11\u6b7b\u4e86\u00b7",
+    "message_id": 551894,
+    "reply_to_message": {
+      "chat": {
+        "id": -1002645770363,
+        "type": "supergroup",
+        "title": "Akaere Internet Exchange Point | offtopic"
+      },
+      "date": 1766757558,
+      "from": {
+        "id": 8557068528,
+        "is_bot": true,
+        "username": "akaere_group_thinking_bot",
+        "first_name": "Akaere Group Thinking"
+      },
+      "text": "\u274c Failed to sign messages: 422 {\"message\": \"Update is not a fast forward\", \"documentation_url\": \"https://docs.github.com/rest/git/refs#update-a-reference\", \"status\": \"422\"}",
+      "entities": [
+        {
+          "type": "url",
+          "length": 56,
+          "offset": 97
+        }
+      ],
+      "edit_date": 1766757569,
+      "message_id": 551891,
+      "link_preview_options": {
+        "url": "https://docs.github.com/rest/git/refs"
+      }
+    },
+    "message_thread_id": 551891,
+    "sender_boost_count": 1,
+    "_db_info": {
+      "id": 55284,
+      "created_at": "2025-12-26T21:59:35.227129",
+      "message_type": "text",
+      "media_sha1s": []
+    }
+  },
+  "extraction_metadata": {
+    "extracted_at": "2025-12-26T14:00:11.332373Z",
+    "extracted_by": "sign_command",
+    "original_format": "telegram_api_v6.4"
+  }
+}
