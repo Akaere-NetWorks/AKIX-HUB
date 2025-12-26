@@ -1,0 +1,31 @@
+{
+  "block_id": "block_32",
+  "height": 32,
+  "previous_hash": "674edd1f5af325f456b48f6caa512e01d82a943d6441d36beae9faa894c5e878",
+  "timestamp": "2025-12-26T13:56:28.160848Z",
+  "creator": {
+    "user_id": 5560199110,
+    "username": "bakabing",
+    "full_name": "Bingxin Baka"
+  },
+  "description": "Signed 1 messages",
+  "messages": [
+    {
+      "telegram_id": 551808,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2025-12-26T21:55:50Z",
+      "sender": {
+        "id": 8461935548,
+        "username": "RuiFeng_12",
+        "full_name": "Rui Feng"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_32/message_1.json",
+    "sign/block_32/message_1.sig"
+  ],
+  "block_hash": "52e26bda02fc8b4cc59b34a501a6c57804bc8922be9549729853fc023a5a98f4"
+}
