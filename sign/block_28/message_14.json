@@ -1,0 +1,49 @@
+{
+  "telegram_api_data": {
+    "chat": {
+      "id": -1002645770363,
+      "type": "supergroup",
+      "title": "Akaere Internet Exchange Point | offtopic"
+    },
+    "date": 1766756159,
+    "from": {
+      "id": 8461935548,
+      "is_bot": false,
+      "username": "RuiFeng_12",
+      "last_name": "Feng",
+      "first_name": "Rui",
+      "is_premium": true
+    },
+    "text": "\u6211\u7238\u77e5\u9053\u554a \u6211\u7238\u5988\u77e5\u9053\u6211\u8c08\u604b\u7231",
+    "message_id": 551599,
+    "reply_to_message": {
+      "chat": {
+        "id": -1002645770363,
+        "type": "supergroup",
+        "title": "Akaere Internet Exchange Point | offtopic"
+      },
+      "date": 1766756147,
+      "from": {
+        "id": 6929501509,
+        "is_bot": false,
+        "first_name": "Seven",
+        "is_premium": true
+      },
+      "text": "\u4f60\u4e0d\u662f\u6ca1\u548c\u4f60\u5988\u8bf4\u5417",
+      "message_id": 551596,
+      "message_thread_id": 551541
+    },
+    "message_thread_id": 551541,
+    "_db_info": {
+      "id": 55026,
+      "created_at": "2025-12-26T21:35:59.757426",
+      "message_type": "text",
+      "media_sha1s": []
+    }
+  },
+  "extraction_metadata": {
+    "extracted_at": "2025-12-26T13:50:38.319695Z",
+    "extracted_by": "sign_command",
+    "original_format": "telegram_api_v6.4"
+  }
+}

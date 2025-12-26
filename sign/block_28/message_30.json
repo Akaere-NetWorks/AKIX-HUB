@@ -1,0 +1,49 @@
+{
+  "telegram_api_data": {
+    "chat": {
+      "id": -1002645770363,
+      "type": "supergroup",
+      "title": "Akaere Internet Exchange Point | offtopic"
+    },
+    "date": 1766756229,
+    "from": {
+      "id": 832028851,
+      "is_bot": false,
+      "username": "genezx",
+      "first_name": "ZX"
+    },
+    "text": "baoshuo\u5f1f\u5f1f\u5417",
+    "message_id": 551615,
+    "reply_to_message": {
+      "chat": {
+        "id": -1002645770363,
+        "type": "supergroup",
+        "title": "Akaere Internet Exchange Point | offtopic"
+      },
+      "date": 1766497020,
+      "from": {
+        "id": 1780794882,
+        "is_bot": false,
+        "username": "gugumnt",
+        "first_name": "\u9d3f",
+        "is_premium": true
+      },
+      "text": "\u6709\u521a\u51fa\u751f\u5c31\u5f00\u7684",
+      "edit_date": 1766497025,
+      "message_id": 541772,
+      "message_thread_id": 541769
+    },
+    "message_thread_id": 541769,
+    "_db_info": {
+      "id": 55042,
+      "created_at": "2025-12-26T21:37:09.976562",
+      "message_type": "text",
+      "media_sha1s": []
+    }
+  },
+  "extraction_metadata": {
+    "extracted_at": "2025-12-26T13:50:38.495335Z",
+    "extracted_by": "sign_command",
+    "original_format": "telegram_api_v6.4"
+  }
+}
