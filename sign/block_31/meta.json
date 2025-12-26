@@ -1,0 +1,31 @@
+{
+  "block_id": "block_31",
+  "height": 31,
+  "previous_hash": "ea95548a0a050fa093428b7761b960438e9ac90581724c767c1dc889758d6950",
+  "timestamp": "2025-12-26T13:55:26.881076Z",
+  "creator": {
+    "user_id": 832910943,
+    "username": "KevinTan2025",
+    "full_name": "Kevin Tan"
+  },
+  "description": "Signed 1 messages",
+  "messages": [
+    {
+      "telegram_id": 551794,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2025-12-26T21:54:58Z",
+      "sender": {
+        "id": 832910943,
+        "username": "KevinTan2025",
+        "full_name": "Kevin Tan"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_31/message_1.json",
+    "sign/block_31/message_1.sig"
+  ],
+  "block_hash": "674edd1f5af325f456b48f6caa512e01d82a943d6441d36beae9faa894c5e878"
+}
