@@ -1,0 +1,32 @@
+{
+  "telegram_api_data": {
+    "chat": {
+      "id": -1002645770363,
+      "type": "supergroup",
+      "title": "Akaere Internet Exchange Point | offtopic"
+    },
+    "date": 1766757527,
+    "from": {
+      "id": 8461935548,
+      "is_bot": false,
+      "username": "RuiFeng_12",
+      "last_name": "Feng",
+      "first_name": "Rui",
+      "is_premium": true
+    },
+    "text": "\u8001\u5b50\u6ca1\u8349\u6bd4",
+    "message_id": 551865,
+    "sender_boost_count": 1,
+    "_db_info": {
+      "id": 55265,
+      "created_at": "2025-12-26T21:58:49.129638",
+      "message_type": "text",
+      "media_sha1s": []
+    }
+  },
+  "extraction_metadata": {
+    "extracted_at": "2025-12-26T13:59:07.568846Z",
+    "extracted_by": "sign_command",
+    "original_format": "telegram_api_v6.4"
+  }
+}
