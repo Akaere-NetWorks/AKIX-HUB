@@ -1,0 +1,31 @@
+{
+  "block_id": "block_38",
+  "height": 38,
+  "previous_hash": "87d50395e7c8c99bffdbede656c8380b040c8aa8c3a7a0bff8285d58078752d6",
+  "timestamp": "2025-12-26T17:07:53.473125Z",
+  "creator": {
+    "user_id": 1613650110,
+    "username": "MBRjun",
+    "full_name": "rpool/MBR"
+  },
+  "description": "Signed 1 messages",
+  "messages": [
+    {
+      "telegram_id": 553985,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2025-12-27T01:07:37Z",
+      "sender": {
+        "id": 8461935548,
+        "username": "RuiFeng_12",
+        "full_name": "Rui Feng"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_38/message_1.json",
+    "sign/block_38/message_1.sig"
+  ],
+  "block_hash": "c8d1712a851207c477df15c7dc382f7821487f77367bc7207b6e45c6193ccda1"
+}
