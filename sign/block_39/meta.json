@@ -1,0 +1,31 @@
+{
+  "block_id": "block_39",
+  "height": 39,
+  "previous_hash": "c8d1712a851207c477df15c7dc382f7821487f77367bc7207b6e45c6193ccda1",
+  "timestamp": "2026-01-23T11:17:37.025994Z",
+  "creator": {
+    "user_id": 6207564254,
+    "username": "Pysio07",
+    "full_name": "Pysio"
+  },
+  "description": "Signed 1 messages",
+  "messages": [
+    {
+      "telegram_id": 625013,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2026-01-23T19:16:51Z",
+      "sender": {
+        "id": 6207564254,
+        "username": "Pysio07",
+        "full_name": "Pysio"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_39/message_1.json",
+    "sign/block_39/message_1.sig"
+  ],
+  "block_hash": "dd1fbbea010e0847bca3613c578d6301ed49c8b9b929c05ad428aec916c23660"
+}
