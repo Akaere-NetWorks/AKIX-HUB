@@ -1,0 +1,44 @@
+{
+  "block_id": "block_41",
+  "height": 41,
+  "previous_hash": "22f841578d277f736f2e13d038232c61d68659189f603925fed51ba313096545",
+  "timestamp": "2026-04-27T15:46:41.573057Z",
+  "creator": {
+    "user_id": 6207564254,
+    "username": "Pysio07",
+    "full_name": "Pysio"
+  },
+  "description": "Signed 2 messages",
+  "messages": [
+    {
+      "telegram_id": 766430,
+      "signature_file": "message_1.sig",
+      "content_file": "message_1.json",
+      "timestamp": "2026-04-27T23:45:36Z",
+      "sender": {
+        "id": 5536176816,
+        "username": "Mxmilu",
+        "full_name": "MiLu"
+      }
+    },
+    {
+      "telegram_id": 766431,
+      "signature_file": "message_2.sig",
+      "content_file": "message_2.json",
+      "timestamp": "2026-04-27T23:45:40Z",
+      "sender": {
+        "id": 5536176816,
+        "username": "Mxmilu",
+        "full_name": "MiLu"
+      }
+    }
+  ],
+  "media": [],
+  "files": [
+    "sign/block_41/message_1.json",
+    "sign/block_41/message_1.sig",
+    "sign/block_41/message_2.json",
+    "sign/block_41/message_2.sig"
+  ],
+  "block_hash": "350f2452849b487bc5285f3311c15bf465afb2428ca880d337dbab2ff34113ee"
+}
